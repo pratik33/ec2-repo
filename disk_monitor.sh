@@ -4,7 +4,7 @@
 THRESHOLD=10
 ALERT_EMAIL="pratik.sutar@yash.com"
 CURRENT_DATE=$(date "+%Y-%m-%d %H:%M:%S")
-LOG_FILE="/ec2/logs/disk_monitor.log"  # Log file location
+LOG_FILE="/ec2/logs/disk_monitor_ec2.log"  # Log file location
 
 # Function to write to log file
 write_log() {
